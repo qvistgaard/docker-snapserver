@@ -6,5 +6,5 @@ Run:
 docker run -d \
     --name snapserver \
     --net host \
-    kevineye/shairport-sync
+    soerensen/snapserver \
 	/snapserver.sh -s "spotify:///librespot?name=Spotify&devicename=Snapcast&bitrate=320&username=<USERNAME>&password=<PASSWORD>" -s "airplay:///usr/local/bin/shairport-sync?name=Airplay"
