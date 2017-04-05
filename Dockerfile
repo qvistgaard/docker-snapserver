@@ -55,4 +55,4 @@ ADD snapserver.sh /snapserver.sh
 RUN chmod 755 /snapserver.sh
 RUN mkdir -p /var/run/dbus
 
-ENTRYPOINT ["/snapserver.sh"]
+# ENTRYPOINT ["/snapserver.sh"]
